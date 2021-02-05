@@ -2,7 +2,7 @@
     {
         "id": "282fafd4.df968",
         "type": "tab",
-        "label": "PWS Dashboard KTXMANSF125",
+        "label": "PWS Dashboard",
         "disabled": false,
         "info": ""
     },
@@ -19,8 +19,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 850,
-        "y": 100,
+        "x": 1070,
+        "y": 200,
         "wires": []
     },
     {
@@ -39,8 +39,8 @@
         "z": "282fafd4.df968",
         "name": "5 Day Forecast",
         "info": "",
-        "x": 120,
-        "y": 820,
+        "x": 380,
+        "y": 920,
         "wires": []
     },
     {
@@ -62,11 +62,11 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 390,
-        "y": 100,
+        "x": 530,
+        "y": 140,
         "wires": [
             [
-                "1d33165b.0656ea"
+                "6e439dd2.a9fbc4"
             ]
         ]
     },
@@ -96,8 +96,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 400,
-        "y": 180,
+        "x": 600,
+        "y": 380,
         "wires": [
             [
                 "36df2040.dab0e8"
@@ -109,7 +109,7 @@
         "type": "debug",
         "z": "282fafd4.df968",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -117,8 +117,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 570,
-        "y": 100,
+        "x": 1330,
+        "y": 180,
         "wires": []
     },
     {
@@ -131,27 +131,22 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 560,
-        "y": 1040,
+        "x": 860,
+        "y": 1160,
         "wires": [
             [
-                "d2b0178b.fa37e8",
                 "c6f84647.c727"
             ],
             [
-                "d2b0178b.fa37e8",
                 "38c5e3a2.2f759c"
             ],
             [
-                "d2b0178b.fa37e8",
                 "e6eeebc9.faf3d"
             ],
             [
-                "d2b0178b.fa37e8",
                 "6061525a.e3fe14"
             ],
             [
-                "d2b0178b.fa37e8",
                 "54c87a53.d9ec64"
             ]
         ]
@@ -161,41 +156,15 @@
         "type": "debug",
         "z": "282fafd4.df968",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 810,
-        "y": 780,
-        "wires": []
-    },
-    {
-        "id": "d2b0178b.fa37e8",
-        "type": "debug",
-        "z": "282fafd4.df968",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "x": 830,
-        "y": 1160,
-        "wires": []
-    },
-    {
-        "id": "8d8a0f4c.d53668",
-        "type": "debug",
-        "z": "282fafd4.df968",
-        "name": "",
-        "active": false,
-        "console": "false",
-        "complete": "payload",
-        "x": 1110,
-        "y": 1000,
+        "x": 890,
+        "y": 840,
         "wires": []
     },
     {
@@ -208,27 +177,22 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 830,
-        "y": 880,
+        "x": 970,
+        "y": 1000,
         "wires": [
             [
-                "8d8a0f4c.d53668",
                 "eb564a5d.b01118"
             ],
             [
-                "8d8a0f4c.d53668",
                 "71761249.14ae4c"
             ],
             [
-                "8d8a0f4c.d53668",
                 "e9c1cf4f.1efb3"
             ],
             [
-                "8d8a0f4c.d53668",
                 "95fe10b6.103008"
             ],
             [
-                "8d8a0f4c.d53668",
                 "159f2e1d.f12802"
             ]
         ]
@@ -243,8 +207,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 850,
-        "y": 180,
+        "x": 1070,
+        "y": 240,
         "wires": [
             [
                 "a74bb8bb.139fc8"
@@ -265,7 +229,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "120",
+        "repeat": "180",
         "crontab": "",
         "once": true,
         "onceDelay": 0.1,
@@ -273,7 +237,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 210,
-        "y": 220,
+        "y": 380,
         "wires": [
             [
                 "6e439dd2.a9fbc4"
@@ -300,7 +264,7 @@
         "to": "",
         "reg": false,
         "x": 1080,
-        "y": 280,
+        "y": 320,
         "wires": [
             [
                 "8fd76ace.1f3428"
@@ -327,7 +291,7 @@
         "to": "",
         "reg": false,
         "x": 1080,
-        "y": 320,
+        "y": 360,
         "wires": [
             [
                 "a65807d7.1fb848"
@@ -354,7 +318,7 @@
         "to": "",
         "reg": false,
         "x": 1080,
-        "y": 360,
+        "y": 400,
         "wires": [
             [
                 "34179c1e.671894"
@@ -381,7 +345,7 @@
         "to": "",
         "reg": false,
         "x": 1080,
-        "y": 480,
+        "y": 520,
         "wires": [
             [
                 "c912ed25.c046b"
@@ -408,7 +372,7 @@
         "to": "",
         "reg": false,
         "x": 1080,
-        "y": 400,
+        "y": 440,
         "wires": [
             [
                 "f5b00d36.a411f"
@@ -427,6 +391,13 @@
                 "pt": "msg",
                 "to": "payload.temperatureMin[0]",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "ui_control.options.valueMinFontSize",
+                "pt": "msg",
+                "to": "40",
+                "tot": "num"
             }
         ],
         "action": "",
@@ -434,8 +405,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 820,
-        "y": 700,
+        "x": 900,
+        "y": 760,
         "wires": [
             [
                 "ab673ea1.df52f"
@@ -454,6 +425,13 @@
                 "pt": "msg",
                 "to": "payload.temperatureMax[0]",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "ui_control.options.valueMinFontSize",
+                "pt": "msg",
+                "to": "40",
+                "tot": "num"
             }
         ],
         "action": "",
@@ -461,38 +439,11 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 820,
-        "y": 660,
+        "x": 900,
+        "y": 720,
         "wires": [
             [
                 "ecc05137.639f"
-            ]
-        ]
-    },
-    {
-        "id": "621a6406.9ce46c",
-        "type": "change",
-        "z": "282fafd4.df968",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.observations[0].imperial.temp",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1080,
-        "y": 240,
-        "wires": [
-            [
-                "1bda5c6.84f41a4"
             ]
         ]
     },
@@ -508,6 +459,13 @@
                 "pt": "msg",
                 "to": "payload.observations[0].imperial.dewpt",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "ui_control.options.valueMinFontSize",
+                "pt": "msg",
+                "to": "30",
+                "tot": "num"
             }
         ],
         "action": "",
@@ -516,88 +474,11 @@
         "to": "",
         "reg": false,
         "x": 1080,
-        "y": 520,
+        "y": 560,
         "wires": [
             [
                 "acb3b711.54d858"
             ]
-        ]
-    },
-    {
-        "id": "660d3c80.3a8ca4",
-        "type": "inject",
-        "z": "282fafd4.df968",
-        "name": "Hourly refresh",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "3600",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 120,
-        "y": 880,
-        "wires": [
-            [
-                "27c10673.26a442"
-            ]
-        ]
-    },
-    {
-        "id": "f44a141.8e757e8",
-        "type": "inject",
-        "z": "282fafd4.df968",
-        "name": "KTXMANSF125",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "KTXMANSF125",
-        "payloadType": "str",
-        "x": 120,
-        "y": 60,
-        "wires": [
-            [
-                "a41d8185.128c7"
-            ]
-        ]
-    },
-    {
-        "id": "df92a514.ec30c8",
-        "type": "inject",
-        "z": "282fafd4.df968",
-        "name": "KTXBASTR120",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "KTXBASTR120",
-        "payloadType": "str",
-        "x": 140,
-        "y": 320,
-        "wires": [
-            []
         ]
     },
     {
@@ -606,8 +487,8 @@
         "z": "282fafd4.df968",
         "name": "Grab High and Low Temp and Moon data",
         "info": "",
-        "x": 900,
-        "y": 620,
+        "x": 980,
+        "y": 680,
         "wires": []
     },
     {
@@ -622,6 +503,13 @@
                 "pt": "msg",
                 "to": "payload.observations[0].uv",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "ui_control.options.valueMinFontSize",
+                "pt": "msg",
+                "to": "30",
+                "tot": "num"
             }
         ],
         "action": "",
@@ -630,7 +518,7 @@
         "to": "",
         "reg": false,
         "x": 1080,
-        "y": 560,
+        "y": 600,
         "wires": [
             [
                 "7a613fa4.250c6"
@@ -642,11 +530,11 @@
         "type": "pws-observations",
         "z": "282fafd4.df968",
         "name": "",
-        "stationid": "KTXBASTR120",
+        "stationid": "StationID",
         "units": "e",
-        "apikey": "cb7e60b9.0b4c2",
-        "x": 590,
-        "y": 180,
+        "apikey": "4888b0a5.5cd9d",
+        "x": 790,
+        "y": 380,
         "wires": [
             [
                 "d2d665ce.c48898",
@@ -656,10 +544,11 @@
                 "25b3df1b.265fd",
                 "4d43de33.96556",
                 "38de30b4.7bf86",
-                "621a6406.9ce46c",
                 "405f5a2d.b50574",
                 "8cf1da8b.06de08",
-                "374bd908.4e3a46"
+                "374bd908.4e3a46",
+                "b930ef14.a3d7c",
+                "cefb8c45.37366"
             ]
         ]
     },
@@ -667,14 +556,14 @@
         "id": "27c10673.26a442",
         "type": "pws-forecast",
         "z": "282fafd4.df968",
-        "name": "",
+        "name": "TWC Forecast 76063",
         "units": "e",
         "locationtype": "postalKey",
         "location": "76063:US",
         "lang": "en-US",
-        "apikey": "cb7e60b9.0b4c2",
-        "x": 320,
-        "y": 880,
+        "apikey": "4888b0a5.5cd9d",
+        "x": 640,
+        "y": 940,
         "wires": [
             [
                 "5c5bc36.005563c",
@@ -682,7 +571,8 @@
                 "8fb91cd3.0a47",
                 "dc8e4153.3fc11",
                 "ce6acc54.9ea0f",
-                "fec4e447.6fa4d8"
+                "fec4e447.6fa4d8",
+                "d8ae468c.6e66a8"
             ]
         ]
     },
@@ -701,7 +591,7 @@
         "mode": "text",
         "delay": 300,
         "topic": "",
-        "x": 120,
+        "x": 300,
         "y": 100,
         "wires": [
             [
@@ -728,7 +618,7 @@
         "payloadType": "str",
         "topic": "",
         "x": 180,
-        "y": 180,
+        "y": 340,
         "wires": [
             [
                 "6e439dd2.a9fbc4"
@@ -740,10 +630,10 @@
         "type": "ui_gauge",
         "z": "282fafd4.df968",
         "name": "",
-        "group": "9aa350e2.e60ab",
-        "order": 12,
-        "width": 3,
-        "height": 3,
+        "group": "1eaa5523.e75dab",
+        "order": 8,
+        "width": 5,
+        "height": 4,
         "gtype": "wave",
         "title": "Humidity",
         "label": "%",
@@ -758,7 +648,7 @@
         "seg1": "25",
         "seg2": "65",
         "x": 1260,
-        "y": 280,
+        "y": 320,
         "wires": []
     },
     {
@@ -768,7 +658,7 @@
         "name": "",
         "group": "c05e4831.bbdf78",
         "order": 1,
-        "width": 5,
+        "width": 6,
         "height": 5,
         "gtype": "compass",
         "title": "Wind Direction",
@@ -784,7 +674,7 @@
         "seg1": "",
         "seg2": "",
         "x": 1280,
-        "y": 320,
+        "y": 360,
         "wires": []
     },
     {
@@ -794,7 +684,7 @@
         "name": "",
         "group": "c05e4831.bbdf78",
         "order": 2,
-        "width": 5,
+        "width": 6,
         "height": 5,
         "gtype": "donut",
         "title": "Wind Speed Ave",
@@ -807,10 +697,10 @@
             "#e8e111",
             "#ca3838"
         ],
-        "seg1": "10",
-        "seg2": "25",
+        "seg1": "5",
+        "seg2": "15",
         "x": 1280,
-        "y": 360,
+        "y": 400,
         "wires": []
     },
     {
@@ -818,10 +708,10 @@
         "type": "ui_gauge",
         "z": "282fafd4.df968",
         "name": "",
-        "group": "c05e4831.bbdf78",
+        "group": "1eaa5523.e75dab",
         "order": 9,
-        "width": 2,
-        "height": 2,
+        "width": 5,
+        "height": 4,
         "gtype": "wave",
         "title": "Rainfall",
         "label": "in",
@@ -836,7 +726,7 @@
         "seg1": "",
         "seg2": "",
         "x": 1260,
-        "y": 480,
+        "y": 520,
         "wires": []
     },
     {
@@ -846,9 +736,9 @@
         "name": "",
         "group": "9aa350e2.e60ab",
         "order": 1,
-        "width": 5,
-        "height": 5,
-        "gtype": "donut",
+        "width": 7,
+        "height": 6,
+        "gtype": "gage",
         "title": "Temp",
         "label": "F",
         "format": "{{value}}",
@@ -862,7 +752,7 @@
         "seg1": "60",
         "seg2": "85",
         "x": 1250,
-        "y": 240,
+        "y": 280,
         "wires": []
     },
     {
@@ -870,10 +760,10 @@
         "type": "ui_gauge",
         "z": "282fafd4.df968",
         "name": "",
-        "group": "9aa350e2.e60ab",
-        "order": 3,
-        "width": 3,
-        "height": 2,
+        "group": "1eaa5523.e75dab",
+        "order": 1,
+        "width": 5,
+        "height": 4,
         "gtype": "gage",
         "title": "UV",
         "label": "",
@@ -888,7 +778,7 @@
         "seg1": "3",
         "seg2": "6",
         "x": 1250,
-        "y": 560,
+        "y": 600,
         "wires": []
     },
     {
@@ -903,8 +793,8 @@
         "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-left",
-        "x": 810,
-        "y": 960,
+        "x": 1050,
+        "y": 1080,
         "wires": []
     },
     {
@@ -919,8 +809,8 @@
         "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-left",
-        "x": 810,
-        "y": 1000,
+        "x": 1050,
+        "y": 1120,
         "wires": []
     },
     {
@@ -935,8 +825,8 @@
         "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-left",
-        "x": 810,
-        "y": 1040,
+        "x": 1050,
+        "y": 1160,
         "wires": []
     },
     {
@@ -951,8 +841,8 @@
         "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-left",
-        "x": 810,
-        "y": 1080,
+        "x": 1050,
+        "y": 1200,
         "wires": []
     },
     {
@@ -967,8 +857,8 @@
         "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-left",
-        "x": 810,
-        "y": 1120,
+        "x": 1050,
+        "y": 1240,
         "wires": []
     },
     {
@@ -985,8 +875,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": false,
         "templateScope": "local",
-        "x": 1140,
-        "y": 800,
+        "x": 1280,
+        "y": 920,
         "wires": [
             []
         ]
@@ -1005,8 +895,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": false,
         "templateScope": "local",
-        "x": 1140,
-        "y": 840,
+        "x": 1280,
+        "y": 960,
         "wires": [
             []
         ]
@@ -1025,8 +915,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": false,
         "templateScope": "local",
-        "x": 1140,
-        "y": 880,
+        "x": 1280,
+        "y": 1000,
         "wires": [
             []
         ]
@@ -1045,8 +935,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": false,
         "templateScope": "local",
-        "x": 1140,
-        "y": 920,
+        "x": 1280,
+        "y": 1040,
         "wires": [
             []
         ]
@@ -1065,8 +955,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": false,
         "templateScope": "local",
-        "x": 1140,
-        "y": 960,
+        "x": 1280,
+        "y": 1080,
         "wires": [
             []
         ]
@@ -1104,8 +994,8 @@
         ],
         "outputs": 0,
         "cts": false,
-        "x": 1050,
-        "y": 180,
+        "x": 1250,
+        "y": 240,
         "wires": []
     },
     {
@@ -1129,7 +1019,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 690,
+        "x": 410,
         "y": 60,
         "wires": [
             [
@@ -1161,7 +1051,7 @@
         "myepoch": false,
         "myrawdate": false,
         "mypm": true,
-        "x": 850,
+        "x": 570,
         "y": 60,
         "wires": [
             [
@@ -1197,7 +1087,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1080,
+        "x": 800,
         "y": 60,
         "wires": [
             [
@@ -1210,16 +1100,17 @@
         "type": "ui_text",
         "z": "282fafd4.df968",
         "group": "9aa350e2.e60ab",
-        "order": 7,
+        "order": 3,
         "width": 5,
         "height": 2,
         "name": "Local Time",
         "label": "",
-        "format": "<font size=8>{{msg.payload}}</font>",
-        "layout": "row-right",
-        "x": 1650,
-        "y": 80,
-        "wires": []
+        "format": "<font class=\"fa-4x\">{{msg.payload}}</font>",
+        "layout": "row-center",
+        "x": 1310,
+        "y": 60,
+        "wires": [],
+        "info": "<font class=\"fa-4x\">"
     },
     {
         "id": "ab673ea1.df52f",
@@ -1227,10 +1118,10 @@
         "z": "282fafd4.df968",
         "name": "",
         "group": "9aa350e2.e60ab",
-        "order": 16,
-        "width": 2,
-        "height": 2,
-        "gtype": "donut",
+        "order": 5,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
         "title": "Low",
         "label": "F",
         "format": "{{value}}",
@@ -1243,8 +1134,8 @@
         ],
         "seg1": "60",
         "seg2": "85",
-        "x": 1150,
-        "y": 700,
+        "x": 1230,
+        "y": 760,
         "wires": []
     },
     {
@@ -1252,11 +1143,11 @@
         "type": "ui_gauge",
         "z": "282fafd4.df968",
         "name": "",
-        "group": "9aa350e2.e60ab",
-        "order": 20,
-        "width": 2,
-        "height": 2,
-        "gtype": "donut",
+        "group": "1eaa5523.e75dab",
+        "order": 3,
+        "width": 5,
+        "height": 4,
+        "gtype": "gage",
         "title": "Dew Point",
         "label": "F",
         "format": "{{value}}",
@@ -1270,7 +1161,7 @@
         "seg1": "60",
         "seg2": "85",
         "x": 1270,
-        "y": 520,
+        "y": 560,
         "wires": []
     },
     {
@@ -1279,10 +1170,10 @@
         "z": "282fafd4.df968",
         "name": "",
         "group": "9aa350e2.e60ab",
-        "order": 5,
-        "width": 2,
-        "height": 2,
-        "gtype": "donut",
+        "order": 2,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
         "title": "High",
         "label": "F",
         "format": "{{value}}",
@@ -1295,8 +1186,8 @@
         ],
         "seg1": "60",
         "seg2": "85",
-        "x": 1150,
-        "y": 660,
+        "x": 1230,
+        "y": 720,
         "wires": []
     },
     {
@@ -1325,7 +1216,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1080,
+        "x": 800,
         "y": 100,
         "wires": [
             [
@@ -1359,7 +1250,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1080,
+        "x": 800,
         "y": 140,
         "wires": [
             [
@@ -1390,7 +1281,7 @@
         "seg1": "10",
         "seg2": "25",
         "x": 1290,
-        "y": 400,
+        "y": 440,
         "wires": []
     },
     {
@@ -1413,34 +1304,21 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1250,
-        "y": 100,
+        "x": 990,
+        "y": 80,
         "wires": [
             [
-                "98b9a92a.351588"
+                "98b9a92a.351588",
+                "1d33165b.0656ea",
+                "6211b334.cacb3c"
             ]
         ]
-    },
-    {
-        "id": "4e42cf8c.e0399",
-        "type": "debug",
-        "z": "282fafd4.df968",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1650,
-        "y": 160,
-        "wires": []
     },
     {
         "id": "98b9a92a.351588",
         "type": "join",
         "z": "282fafd4.df968",
+        "d": true,
         "name": "",
         "mode": "custom",
         "build": "string",
@@ -1457,12 +1335,11 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1470,
-        "y": 120,
+        "x": 1130,
+        "y": 140,
         "wires": [
             [
-                "6211b334.cacb3c",
-                "4e42cf8c.e0399"
+                "6211b334.cacb3c"
             ]
         ]
     },
@@ -1481,7 +1358,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1270,
+        "x": 970,
         "y": 140,
         "wires": [
             [
@@ -1501,6 +1378,13 @@
                 "pt": "msg",
                 "to": "payload.observations[0].imperial.pressure",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "ui_control.options.valueMinFontSize",
+                "pt": "msg",
+                "to": "30",
+                "tot": "num"
             }
         ],
         "action": "",
@@ -1509,7 +1393,7 @@
         "to": "",
         "reg": false,
         "x": 1080,
-        "y": 440,
+        "y": 480,
         "wires": [
             [
                 "e2b04cfc.a2c18"
@@ -1521,16 +1405,16 @@
         "type": "ui_gauge",
         "z": "282fafd4.df968",
         "name": "",
-        "group": "9aa350e2.e60ab",
-        "order": 18,
-        "width": 2,
-        "height": 2,
-        "gtype": "donut",
+        "group": "1eaa5523.e75dab",
+        "order": 2,
+        "width": 5,
+        "height": 4,
+        "gtype": "gage",
         "title": "Barometer",
-        "label": "mph",
+        "label": "inHg",
         "format": "{{value}}",
         "min": "25",
-        "max": "33",
+        "max": "32",
         "colors": [
             "#ff0f0f",
             "#dfb211",
@@ -1539,7 +1423,7 @@
         "seg1": "",
         "seg2": "",
         "x": 1270,
-        "y": 440,
+        "y": 480,
         "wires": []
     },
     {
@@ -1561,8 +1445,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 820,
-        "y": 740,
+        "x": 900,
+        "y": 800,
         "wires": [
             [
                 "c3f22545.41e4d8"
@@ -1573,18 +1457,18 @@
         "id": "43f771f5.9ca61",
         "type": "ui_template",
         "z": "282fafd4.df968",
-        "group": "c05e4831.bbdf78",
+        "group": "9aa350e2.e60ab",
         "name": "Moon Phase",
-        "order": 5,
-        "width": 2,
+        "order": 7,
+        "width": 3,
         "height": 2,
         "format": "<div style=\"display: flex;height: 100%;justify-content: center;align-items: center;\">\n<i class=\"fa-4x wi wi-moon-{{msg.payload}}-dark\"></i>\n</div>",
         "storeOutMessages": false,
         "fwdInMessages": true,
         "resendOnRefresh": false,
         "templateScope": "local",
-        "x": 1170,
-        "y": 740,
+        "x": 1250,
+        "y": 800,
         "wires": [
             []
         ]
@@ -1628,8 +1512,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1000,
-        "y": 740,
+        "x": 1080,
+        "y": 800,
         "wires": [
             [
                 "43f771f5.9ca61"
@@ -1643,8 +1527,8 @@
         "z": "282fafd4.df968",
         "name": "Recent PWS Observations",
         "info": "",
-        "x": 150,
-        "y": 1220,
+        "x": 149,
+        "y": 1315,
         "wires": []
     },
     {
@@ -1652,13 +1536,13 @@
         "type": "debug",
         "z": "282fafd4.df968",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
         "complete": "false",
-        "x": 870,
-        "y": 1260,
+        "x": 1170,
+        "y": 1360,
         "wires": []
     },
     {
@@ -1666,7 +1550,7 @@
         "type": "debug",
         "z": "282fafd4.df968",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -1674,8 +1558,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 610,
-        "y": 1260,
+        "x": 910,
+        "y": 1360,
         "wires": []
     },
     {
@@ -1696,8 +1580,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 140,
-        "y": 1260,
+        "x": 160,
+        "y": 1360,
         "wires": [
             [
                 "6b5aa3d8.907dac"
@@ -1714,8 +1598,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 660,
-        "y": 1300,
+        "x": 960,
+        "y": 1400,
         "wires": [
             [
                 "2ff796f.962936a",
@@ -1760,8 +1644,8 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 920,
-        "y": 1300,
+        "x": 1220,
+        "y": 1400,
         "wires": [
             []
         ]
@@ -1771,6 +1655,15 @@
         "type": "inject",
         "z": "282fafd4.df968",
         "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
         "repeat": "",
         "crontab": "",
         "once": false,
@@ -1778,8 +1671,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 200,
-        "y": 1300,
+        "x": 220,
+        "y": 1400,
         "wires": [
             [
                 "6b5aa3d8.907dac"
@@ -1791,11 +1684,11 @@
         "type": "pws-7day-hourly",
         "z": "282fafd4.df968",
         "name": "",
-        "stationid": "",
+        "stationid": "StationID",
         "units": "e",
-        "apikey": "cb7e60b9.0b4c2",
-        "x": 430,
-        "y": 1300,
+        "apikey": "4888b0a5.5cd9d",
+        "x": 630,
+        "y": 1400,
         "wires": [
             [
                 "3d01023b.50472e",
@@ -1829,8 +1722,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 400,
-        "y": 1260,
+        "x": 420,
+        "y": 1360,
         "wires": [
             [
                 "24c6abc7.636294",
@@ -1839,7 +1732,249 @@
         ]
     },
     {
-        "id": "cb7e60b9.0b4c2",
+        "id": "b930ef14.a3d7c",
+        "type": "change",
+        "z": "282fafd4.df968",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.observations[0].imperial.temp",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "ui_control.options.valueMinFontSize",
+                "pt": "msg",
+                "to": "70",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1080,
+        "y": 280,
+        "wires": [
+            [
+                "1bda5c6.84f41a4"
+            ]
+        ]
+    },
+    {
+        "id": "d8ae468c.6e66a8",
+        "type": "change",
+        "z": "282fafd4.df968",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.moonriseTimeLocal[0]",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 880,
+        "wires": [
+            [
+                "34da12c4.c71a2e"
+            ]
+        ]
+    },
+    {
+        "id": "f4a7b0e5.9096f",
+        "type": "ui_text",
+        "z": "282fafd4.df968",
+        "group": "9aa350e2.e60ab",
+        "order": 11,
+        "width": 5,
+        "height": 1,
+        "name": "Moonrise",
+        "label": "",
+        "format": "<font class=\"fa-2x\">{{msg.payload}}</font>",
+        "layout": "row-center",
+        "x": 1240,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "34da12c4.c71a2e",
+        "type": "change",
+        "z": "282fafd4.df968",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$substring(payload, 11, 5)\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1080,
+        "y": 880,
+        "wires": [
+            [
+                "f4a7b0e5.9096f"
+            ]
+        ]
+    },
+    {
+        "id": "c456ddb.57c3b2",
+        "type": "ui_button",
+        "z": "282fafd4.df968",
+        "name": "",
+        "group": "1eaa5523.e75dab",
+        "order": 11,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "label": "KTXMANSF125",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "KTXMANSF125",
+        "payloadType": "str",
+        "topic": "StationID",
+        "x": 300,
+        "y": 140,
+        "wires": [
+            [
+                "a41d8185.128c7"
+            ]
+        ]
+    },
+    {
+        "id": "372591f1.1c9a3e",
+        "type": "ui_button",
+        "z": "282fafd4.df968",
+        "name": "",
+        "group": "1eaa5523.e75dab",
+        "order": 12,
+        "width": 7,
+        "height": 1,
+        "passthru": false,
+        "label": "KTXBASTR120",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "KTXBASTR120",
+        "payloadType": "str",
+        "topic": "StationID",
+        "x": 300,
+        "y": 180,
+        "wires": [
+            [
+                "a41d8185.128c7"
+            ]
+        ]
+    },
+    {
+        "id": "cefb8c45.37366",
+        "type": "switch",
+        "z": "282fafd4.df968",
+        "name": "Where is the PWS?",
+        "property": "payload.observations[0].stationID",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "KTXMANSF125",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "KTXBASTR120",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 370,
+        "y": 960,
+        "wires": [
+            [
+                "27c10673.26a442"
+            ],
+            [
+                "1582ebdc.f17164"
+            ]
+        ]
+    },
+    {
+        "id": "1582ebdc.f17164",
+        "type": "pws-forecast",
+        "z": "282fafd4.df968",
+        "name": "TWC Forecast 78602",
+        "units": "e",
+        "locationtype": "postalKey",
+        "location": "78602:US",
+        "lang": "en-US",
+        "apikey": "4888b0a5.5cd9d",
+        "x": 640,
+        "y": 1000,
+        "wires": [
+            [
+                "dc8e4153.3fc11",
+                "8fb91cd3.0a47",
+                "ce6acc54.9ea0f",
+                "fec4e447.6fa4d8",
+                "d8ae468c.6e66a8",
+                "77f061a6.a3dd7",
+                "5c5bc36.005563c"
+            ]
+        ]
+    },
+    {
+        "id": "ed15b1b0.1190d",
+        "type": "inject",
+        "z": "282fafd4.df968",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 140,
+        "wires": [
+            [
+                "c456ddb.57c3b2"
+            ]
+        ]
+    },
+    {
+        "id": "4888b0a5.5cd9d",
         "type": "pwsapikey",
         "name": "WU API"
     },
@@ -1854,13 +1989,13 @@
         "collapse": false
     },
     {
-        "id": "9aa350e2.e60ab",
+        "id": "1eaa5523.e75dab",
         "type": "ui_group",
-        "name": "Current Conditions",
+        "name": "More Data",
         "tab": "ba726685.f2a9e8",
-        "order": 1,
+        "order": 3,
         "disp": false,
-        "width": 18,
+        "width": 17,
         "collapse": false
     },
     {
@@ -1870,7 +2005,17 @@
         "tab": "ba726685.f2a9e8",
         "order": 2,
         "disp": false,
-        "width": "18",
+        "width": 17,
+        "collapse": false
+    },
+    {
+        "id": "9aa350e2.e60ab",
+        "type": "ui_group",
+        "name": "Temp and Time",
+        "tab": "ba726685.f2a9e8",
+        "order": 1,
+        "disp": false,
+        "width": 17,
         "collapse": false
     },
     {
@@ -1905,8 +2050,8 @@
     {
         "id": "ba726685.f2a9e8",
         "type": "ui_tab",
-        "name": "KTXMANSF125",
-        "icon": "dashboard",
+        "name": "Current Conditions",
+        "icon": "wi-wu-partlycloudy",
         "order": 1,
         "disabled": false,
         "hidden": false
@@ -1916,7 +2061,7 @@
         "type": "ui_tab",
         "name": "PWS Example",
         "icon": "wi-wu-partlycloudy",
-        "order": 3,
+        "order": 4,
         "disabled": false,
         "hidden": false
     }

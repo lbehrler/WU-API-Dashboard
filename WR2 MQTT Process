@@ -691,6 +691,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 790,
         "y": 180,
         "wires": [
@@ -1219,6 +1220,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": true,
+        "outputs": 1,
         "x": 700,
         "y": 360,
         "wires": [
@@ -1428,6 +1430,7 @@
         "broker": "52473363.c6b6cc",
         "nl": false,
         "rap": false,
+        "inputs": 0,
         "x": 100,
         "y": 580,
         "wires": [
@@ -1448,6 +1451,7 @@
         "nl": false,
         "rap": true,
         "rh": 0,
+        "inputs": 0,
         "x": 100,
         "y": 480,
         "wires": [

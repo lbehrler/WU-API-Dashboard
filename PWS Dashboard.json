@@ -966,7 +966,7 @@
         "name": "",
         "stationid": "StationID",
         "units": "e",
-        "apikey": "4888b0a5.5cd9d",
+        "apikey": "XXXXXXXXXXXXXX",
         "x": 790,
         "y": 400,
         "wires": [
@@ -3603,7 +3603,7 @@
         "id": "4888b0a5.5cd9d",
         "type": "pwsapikey",
         "name": "WU API",
-        "info": "7130a1e50fc64c2eb0a1e50fc66c2ee0"
+        "info": "XXXXXXXXXXXXXXXXXXXX"
     },
     {
         "id": "10c9f9e1.8539b6",
